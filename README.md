@@ -1,92 +1,65 @@
-# 🔥 Spidr Air Fryer Interest Form
 
-A visually rich, brand-inspired, single-page React app designed to capture user interest in Spidr’s (fictional) next-gen air fryer. Built to reflect the style and spirit of [Spidr Design](https://spidr.design).
+# Spidr Air Fryer Interest Form
 
-![Demo Screenshot](./public/top.png)
+This is a playful, single-page React app designed to simulate a product interest form for a fictitious "Spidr Air Fryer." It uses modern UI/UX styling inspired by [Spidr Design](https://spidr.design/) and features animation, responsive layout, sound effects, and themed branding.
 
----
+## 🔥 Features
 
-## ✨ Features
+- 🔁 Animated background video
+- 🎨 Tailwind CSS styling
+- 🔐 Custom 16-digit Spidr PIN input formatting (`####-####-####-####`)
+- 🔊 Air fryer sound effect on form submission
+- ✅ Console output for form data
+- 📱 Responsive and mobile-friendly
 
-- 🎥 Full-screen promotional background video
-- 🧾 Elegant interest form with custom fields:
-  - First Name
-  - Last Name
-  - Phone Number
-  - Email Address
-  - Cost Guess (in USD)
-  - Spidr 16-digit PIN (auto-formatted like `####-####-####-####`)
-- 🔊 Custom audio feedback on submission (`airfryer.mp3`)
-- 🖼️ Animated, styled air fryer background image
-- 💅 Styled using Tailwind CSS to match Spidr Design’s identity
-- 📱 Fully responsive and mobile-friendly
+## 🧪 Technologies Used
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/spidr-airfryer-form.git
-cd spidr-airfryer-form
-```
-
-### 2. Install Dependencies
-```bash
-npm install
-```
-
-### 3. Start the Development Server
-```bash
-npm start
-```
-
-App will run at: `http://localhost:3000`
-
----
-
-## 🛠️ Tech Stack
-
-- **React** – Frontend framework
-- **Tailwind CSS** – Utility-first styling
-- **HTML5 Video/Audio** – Media handling
-- **JavaScript** – State handling and input formatting
-
----
+- React
+- Tailwind CSS
+- HTML5 Video
+- JavaScript Audio API
 
 ## 📁 Project Structure
 
 ```
 public/
-├── airfryer.mp3         # Audio clip for feedback
-├── airfryer.png         # Image shown near the form
-├── top.png              # Overlay image on form reveal
-├── Videos.mp4           # Background promotional video
+├── airfryer.mp3
+├── airfryer.png
+├── top.png
+├── Videos.mp4
 └── index.html
 
 src/
-├── App.js               # Main component logic
-├── index.js             # Entry point
-└── index.css            # Tailwind and custom animation styles
+├── App.js
+├── index.js
+├── index.css
 ```
 
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/spidr-airfryer-form.git
+   cd spidr-airfryer-form
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+The app will run at: `http://localhost:3000`
+
+## 🖼️ Credits
+
+- **Video and image assets** are sourced from [Cosori](https://cosori.com/collections/air-fryers), used only for non-commercial, educational demonstration purposes.
+- **Design inspiration** from [Spidr Design](https://spidr.design/)
+
 ---
 
-## ✅ Improvements & TODOs
-
-- Add form validation or API integration
-- Animate form fields on entry
-- Enhance accessibility (ARIA labels, focus states)
-- Add loader/spinner during audio playback (optional)
-
----
-
-## 📄 License
-
-This project is created for demo purposes and has no official affiliation with Spidr Design.
-
----
-
-## 🙏 Acknowledgements
-
-Inspired by the visual identity and playful UI/UX of [Spidr Design](https://spidr.design).
+> ⚠️ This app is a mock project for demonstration only. It is not affiliated with Spidr Design or Cosori.
