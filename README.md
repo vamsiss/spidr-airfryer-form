@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# 🔥 Spidr Air Fryer Interest Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A visually rich, brand-inspired, single-page React app designed to capture user interest in Spidr’s (fictional) next-gen air fryer. Built to reflect the style and spirit of [Spidr Design](https://spidr.design).
 
-## Available Scripts
+![Demo Screenshot](./public/top.png)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎥 Full-screen promotional background video
+- 🧾 Elegant interest form with custom fields:
+  - First Name
+  - Last Name
+  - Phone Number
+  - Email Address
+  - Cost Guess (in USD)
+  - Spidr 16-digit PIN (auto-formatted like `####-####-####-####`)
+- 🔊 Custom audio feedback on submission (`airfryer.mp3`)
+- 🖼️ Animated, styled air fryer background image
+- 💅 Styled using Tailwind CSS to match Spidr Design’s identity
+- 📱 Fully responsive and mobile-friendly
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/spidr-airfryer-form.git
+cd spidr-airfryer-form
+```
 
-### `npm run build`
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Start the Development Server
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+App will run at: `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React** – Frontend framework
+- **Tailwind CSS** – Utility-first styling
+- **HTML5 Video/Audio** – Media handling
+- **JavaScript** – State handling and input formatting
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+public/
+├── airfryer.mp3         # Audio clip for feedback
+├── airfryer.png         # Image shown near the form
+├── top.png              # Overlay image on form reveal
+├── Videos.mp4           # Background promotional video
+└── index.html
 
-## Learn More
+src/
+├── App.js               # Main component logic
+├── index.js             # Entry point
+└── index.css            # Tailwind and custom animation styles
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ✅ Improvements & TODOs
 
-### Code Splitting
+- Add form validation or API integration
+- Animate form fields on entry
+- Enhance accessibility (ARIA labels, focus states)
+- Add loader/spinner during audio playback (optional)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is created for demo purposes and has no official affiliation with Spidr Design.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🙏 Acknowledgements
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Inspired by the visual identity and playful UI/UX of [Spidr Design](https://spidr.design).
