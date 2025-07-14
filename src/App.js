@@ -43,6 +43,7 @@ export default function App() {
     setSubmitted(true);
 
     const audio = new Audio(`${process.env.PUBLIC_URL}/airfryer.mp3`);
+    audio.volume = 1.0;
     audio.play();
     audio.onended = () => {
       setShowSuccess(true);
